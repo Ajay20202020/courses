@@ -1,0 +1,90 @@
+---
+title: "assignment1_crimes"
+author: "Steven Lin"
+date: "May 1, 2016"
+output: html_document
+---
+
+# Setup
+
+```{r Setup}
+library(data.table)
+library(ggplot2)
+
+main = "/Users/Steven/Documents/Professional/Data Science and Analytics/2_Courses"
+course = "edX_Analytics_Edge"
+datafolder = "Assignments/hw1"
+setwd(file.path(main,course, datafolder))
+
+data = fread("mvtWeek1.csv", na.strings = "NA", stringsAsFactors = FALSE)
+head(data)
+```
+
+# Problem 1: Loading the data
+
+```{r Problem1}
+# dim(data)
+nrow(data) # number of rows
+ncol(data) # number of columns
+summary(data) # get basic statistics for each variable
+```
+
+# Problem 2: Understanding Dates
+
+```{r Problem2}
+data[1,Date] # "12/31/12 23:15"
+DateConvert = as.Date(strptime(data[,Date], "%m/%d/%y %H:%M"))
+DateConvert[1] # "2012-12-31"
+summary(DateConvert) # median = "2006-05-21"
+
+data[, c("Month", "Weekday") := list(months(DateConvert),weekdays(DateConvert))]
+data[, Date:= DateConvert]
+
+sort(table(data[, Month])) # February fewest crimes
+sort(table(data[, Weekday])) # Friday most crimes
+table(data[, list(Month, Arrest)])
+sort(table(data[Arrest== TRUE, Month])) # January most crimes with an arrest
+
+```
+
+# Problem 3: Visualizing Crime Trends
+
+```{r Problem3}
+
+ggplot(data, aes(x=Date)) + geom_histogram(color = "blue",
+                                           fill = 'white',
+                                           binwidth= 24)
+
+ggplot(data, aes(x = Arrest, y = Date)) + geom_boxplot()
+
+year_arrest = table(data[, list(Year, Arrest)]) 
+prop.table(year_arrest, margin = 1) # propotion of arrests
+year_arrest_prop = data.table(prop.table(year_arrest, margin = 1))
+year_arrest_prop = year_arrest_prop[Arrest == TRUE, list(Year, N)]
+```
+
+# Problem 4: 
+
+```{r Problem4}
+
+location_counts = data[ LocationDescription != 'OTHER' , .N, by= LocationDescription]
+top5_locations_freq = head(location_counts[order(N, decreasing=TRUE), ],5) # top 5 locations frequency
+top5_locations_freq
+
+top5_locations = top5_locations_freq[,LocationDescription] # top 5 location names
+top5 = data[LocationDescription %in% top5_locations] # subset of data with top5 locations
+nrow(top5) # observations in top 5
+
+location_arrest = table(top5[, list(LocationDescription, Arrest)]) 
+prop.table(location_arrest, margin = 1) # propotion of arrests, GAS STATION with higher proportion
+
+# Saturday most crimes in gas stations
+table(top5[LocationDescription == 'GAS STATION',list(LocationDescription, Weekday)])
+
+# Saturday least crimes in residential driveway
+table(top5[LocationDescription == 'DRIVEWAY - RESIDENTIAL',list(LocationDescription, Weekday)])
+
+```
+
+
+
