@@ -72,8 +72,8 @@ def partition2(A,i,j):
     right = j-1
 
     # iterate until left and right pointers cross
-    while left <= right:
-
+    while True:
+        
         # advance left pointer until value greater or equal than pivot
         while A[left] < pivot:
             left += 1
@@ -82,23 +82,25 @@ def partition2(A,i,j):
         while A[right]> pivot:
             right -= 1
 
-        # swap if in wrong side of pivot
-        if left <= right:
+        # swap if has not crossed yet
+        if left < right:
             A[left], A[right] = A[right], A[left]
             left +=1
             right-=1
-
-    return left
+        
+        else:
+            return right + 1
                   
 def _quicksort2(A, lo, hi):
     
-    if lo < hi:
+    # sort if at least two elements
+    if hi - lo > 1:
         p = partition2(A, lo, hi)
-        _quicksort2(A, lo, p-1)
-        _quicksort2(A, p+1, hi)
+        _quicksort2(A, lo, p)
+        _quicksort2(A, p, hi)
 
 def quicksort2(A):
-    _quicksort2(A, 0, len(A)-1)
+    _quicksort2(A, 0, len(A))
     return A
 
     
@@ -106,8 +108,6 @@ def quicksort2(A):
 
 if __name__ == '__main__':
     test = [21, 4, 1, 3, 9, 20, 25, 6, 21, 14]
-    quicksort(test)
     print (quicksort(test))
     test = [21, 4, 1, 3, 9, 20, 25, 6, 21, 14]
-    quicksort2(test)
-    print (quicksort(test))
+    print (quicksort2(test))
