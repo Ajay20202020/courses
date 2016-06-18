@@ -1,0 +1,641 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en" class=" is-copy-enabled">
+  <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# object: http://ogp.me/ns/object# article: http://ogp.me/ns/article# profile: http://ogp.me/ns/profile#">
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Language" content="en">
+    <meta name="viewport" content="width=1020">
+    
+    
+    <title>ling400fall2015/hw2.Rmd at gh-pages · kbicknell/ling400fall2015 · GitHub</title>
+    <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="GitHub">
+    <link rel="fluid-icon" href="https://github.com/fluidicon.png" title="GitHub">
+    <link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-144.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144.png">
+    <meta property="fb:app_id" content="1401488693436528">
+
+      <meta content="@github" name="twitter:site" /><meta content="summary" name="twitter:card" /><meta content="kbicknell/ling400fall2015" name="twitter:title" /><meta content="ling400fall2015 - Linguistics 400 / MSiA 490-20 (text analytics) as taught by Klinton Bicknell in Fall of 2015 at Northwestern University " name="twitter:description" /><meta content="https://avatars2.githubusercontent.com/u/6352279?v=3&amp;s=400" name="twitter:image:src" />
+      <meta content="GitHub" property="og:site_name" /><meta content="object" property="og:type" /><meta content="https://avatars2.githubusercontent.com/u/6352279?v=3&amp;s=400" property="og:image" /><meta content="kbicknell/ling400fall2015" property="og:title" /><meta content="https://github.com/kbicknell/ling400fall2015" property="og:url" /><meta content="ling400fall2015 - Linguistics 400 / MSiA 490-20 (text analytics) as taught by Klinton Bicknell in Fall of 2015 at Northwestern University " property="og:description" />
+      <meta name="browser-stats-url" content="https://api.github.com/_private/browser/stats">
+    <meta name="browser-errors-url" content="https://api.github.com/_private/browser/errors">
+    <link rel="assets" href="https://assets-cdn.github.com/">
+    
+    <meta name="pjax-timeout" content="1000">
+    
+
+    <meta name="msapplication-TileImage" content="/windows-tile.png">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="selected-link" value="repo_source" data-pjax-transient>
+
+    <meta name="google-site-verification" content="KT5gs8h0wvaagLKAVWq8bbeNwnZZK1r1XQysX3xurLU">
+    <meta name="google-analytics" content="UA-3769691-2">
+
+<meta content="collector.githubapp.com" name="octolytics-host" /><meta content="github" name="octolytics-app-id" /><meta content="A57CA41F:5096:B020072:56416C8E" name="octolytics-dimension-request_id" />
+
+<meta content="Rails, view, blob#show" data-pjax-transient="true" name="analytics-event" />
+
+
+  <meta class="js-ga-set" name="dimension1" content="Logged Out">
+    <meta class="js-ga-set" name="dimension4" content="Current repo nav">
+
+
+
+
+    <meta name="is-dotcom" content="true">
+        <meta name="hostname" content="github.com">
+    <meta name="user-login" content="">
+
+      <link rel="mask-icon" href="https://assets-cdn.github.com/pinned-octocat.svg" color="#4078c0">
+      <link rel="icon" type="image/x-icon" href="https://assets-cdn.github.com/favicon.ico">
+
+    <meta content="1490ff08cb7995dcd6b40aaf035ae2050df48e51" name="form-nonce" />
+
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github-e1c13e7309dc7f723b21b2afc0a6ee6a9e8e5978fe25dccb3251d923cab472df.css" integrity="sha256-4cE+cwncf3I7IbKvwKbuap6OWXj+JdzLMlHZI8q0ct8=" media="all" rel="stylesheet" />
+    <link crossorigin="anonymous" href="https://assets-cdn.github.com/assets/github2-8660e134f8078fe75046e2c8cf09a2fd65d94446a9c3d11ecf672cb4c5842b6a.css" integrity="sha256-hmDhNPgHj+dQRuLIzwmi/WXZREapw9Eez2cstMWEK2o=" media="all" rel="stylesheet" />
+    
+    
+    
+
+
+    <meta http-equiv="x-pjax-version" content="bfd96d846aa5a35d072709105fddd787">
+
+      
+  <meta name="description" content="ling400fall2015 - Linguistics 400 / MSiA 490-20 (text analytics) as taught by Klinton Bicknell in Fall of 2015 at Northwestern University ">
+  <meta name="go-import" content="github.com/kbicknell/ling400fall2015 git https://github.com/kbicknell/ling400fall2015.git">
+
+  <meta content="6352279" name="octolytics-dimension-user_id" /><meta content="kbicknell" name="octolytics-dimension-user_login" /><meta content="42880109" name="octolytics-dimension-repository_id" /><meta content="kbicknell/ling400fall2015" name="octolytics-dimension-repository_nwo" /><meta content="true" name="octolytics-dimension-repository_public" /><meta content="false" name="octolytics-dimension-repository_is_fork" /><meta content="42880109" name="octolytics-dimension-repository_network_root_id" /><meta content="kbicknell/ling400fall2015" name="octolytics-dimension-repository_network_root_nwo" />
+  <link href="https://github.com/kbicknell/ling400fall2015/commits/gh-pages.atom" rel="alternate" title="Recent Commits to ling400fall2015:gh-pages" type="application/atom+xml">
+
+  </head>
+
+
+  <body class="logged_out   env-production macintosh vis-public page-blob">
+    <a href="#start-of-content" tabindex="1" class="accessibility-aid js-skip-to-content">Skip to content</a>
+
+    
+    
+    
+
+
+
+      
+      <div class="header header-logged-out" role="banner">
+  <div class="container clearfix">
+
+    <a class="header-logo-wordmark" href="https://github.com/" data-ga-click="(Logged out) Header, go to homepage, icon:logo-wordmark">
+      <span class="mega-octicon octicon-logo-github"></span>
+    </a>
+
+    <div class="header-actions" role="navigation">
+        <a class="btn btn-primary" href="/join" data-ga-click="(Logged out) Header, clicked Sign up, text:sign-up">Sign up</a>
+      <a class="btn" href="/login?return_to=%2Fkbicknell%2Fling400fall2015%2Fblob%2Fgh-pages%2Fhw%2Fhw2.Rmd" data-ga-click="(Logged out) Header, clicked Sign in, text:sign-in">Sign in</a>
+    </div>
+
+    <div class="site-search repo-scope js-site-search" role="search">
+      <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/kbicknell/ling400fall2015/search" class="js-site-search-form" data-global-search-url="/search" data-repo-search-url="/kbicknell/ling400fall2015/search" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+  <label class="js-chromeless-input-container form-control">
+    <div class="scope-badge">This repository</div>
+    <input type="text"
+      class="js-site-search-focus js-site-search-field is-clearable chromeless-input"
+      data-hotkey="s"
+      name="q"
+      placeholder="Search"
+      aria-label="Search this repository"
+      data-global-scope-placeholder="Search GitHub"
+      data-repo-scope-placeholder="Search"
+      tabindex="1"
+      autocapitalize="off">
+  </label>
+</form>
+    </div>
+
+      <ul class="header-nav left" role="navigation">
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/explore" data-ga-click="(Logged out) Header, go to explore, text:explore">Explore</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/features" data-ga-click="(Logged out) Header, go to features, text:features">Features</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="https://enterprise.github.com/" data-ga-click="(Logged out) Header, go to enterprise, text:enterprise">Enterprise</a>
+          </li>
+          <li class="header-nav-item">
+            <a class="header-nav-link" href="/pricing" data-ga-click="(Logged out) Header, go to pricing, text:pricing">Pricing</a>
+          </li>
+      </ul>
+
+  </div>
+</div>
+
+
+
+    <div id="start-of-content" class="accessibility-aid"></div>
+
+    <div id="js-flash-container">
+</div>
+
+
+    <div role="main" class="main-content">
+        <div itemscope itemtype="http://schema.org/WebPage">
+    <div class="pagehead repohead instapaper_ignore readability-menu">
+
+      <div class="container">
+
+        <div class="clearfix">
+          
+
+<ul class="pagehead-actions">
+
+  <li>
+      <a href="/login?return_to=%2Fkbicknell%2Fling400fall2015"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to watch a repository" rel="nofollow">
+    <span class="octicon octicon-eye"></span>
+    Watch
+  </a>
+  <a class="social-count" href="/kbicknell/ling400fall2015/watchers">
+    1
+  </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fkbicknell%2Fling400fall2015"
+    class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+    aria-label="You must be signed in to star a repository" rel="nofollow">
+    <span class="octicon octicon-star"></span>
+    Star
+  </a>
+
+    <a class="social-count js-social-count" href="/kbicknell/ling400fall2015/stargazers">
+      0
+    </a>
+
+  </li>
+
+  <li>
+      <a href="/login?return_to=%2Fkbicknell%2Fling400fall2015"
+        class="btn btn-sm btn-with-count tooltipped tooltipped-n"
+        aria-label="You must be signed in to fork a repository" rel="nofollow">
+        <span class="octicon octicon-repo-forked"></span>
+        Fork
+      </a>
+
+    <a href="/kbicknell/ling400fall2015/network" class="social-count">
+      1
+    </a>
+  </li>
+</ul>
+
+          <h1 itemscope itemtype="http://data-vocabulary.org/Breadcrumb" class="entry-title public ">
+  <span class="mega-octicon octicon-repo"></span>
+  <span class="author"><a href="/kbicknell" class="url fn" itemprop="url" rel="author"><span itemprop="title">kbicknell</span></a></span><!--
+--><span class="path-divider">/</span><!--
+--><strong><a href="/kbicknell/ling400fall2015" data-pjax="#js-repo-pjax-container">ling400fall2015</a></strong>
+
+  <span class="page-context-loader">
+    <img alt="" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+  </span>
+
+</h1>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="repository-with-sidebar repo-container new-discussion-timeline ">
+        <div class="repository-sidebar clearfix">
+          
+<nav class="sunken-menu repo-nav js-repo-nav js-sidenav-container-pjax js-octicon-loaders"
+     role="navigation"
+     data-pjax="#js-repo-pjax-container"
+     data-issue-count-url="/kbicknell/ling400fall2015/issues/counts">
+  <ul class="sunken-menu-group">
+    <li class="tooltipped tooltipped-w" aria-label="Code">
+      <a href="/kbicknell/ling400fall2015/tree/gh-pages" aria-label="Code" aria-selected="true" class="js-selected-navigation-item selected sunken-menu-item" data-hotkey="g c" data-selected-links="repo_source repo_downloads repo_commits repo_releases repo_tags repo_branches /kbicknell/ling400fall2015/tree/gh-pages">
+        <span class="octicon octicon-code"></span> <span class="full-word">Code</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+      <li class="tooltipped tooltipped-w" aria-label="Issues">
+        <a href="/kbicknell/ling400fall2015/issues" aria-label="Issues" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g i" data-selected-links="repo_issues repo_labels repo_milestones /kbicknell/ling400fall2015/issues">
+          <span class="octicon octicon-issue-opened"></span> <span class="full-word">Issues</span>
+          <span class="js-issue-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>      </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Pull requests">
+      <a href="/kbicknell/ling400fall2015/pulls" aria-label="Pull requests" class="js-selected-navigation-item sunken-menu-item" data-hotkey="g p" data-selected-links="repo_pulls /kbicknell/ling400fall2015/pulls">
+          <span class="octicon octicon-git-pull-request"></span> <span class="full-word">Pull requests</span>
+          <span class="js-pull-replace-counter"></span>
+          <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+  </ul>
+  <div class="sunken-menu-separator"></div>
+  <ul class="sunken-menu-group">
+
+    <li class="tooltipped tooltipped-w" aria-label="Pulse">
+      <a href="/kbicknell/ling400fall2015/pulse" aria-label="Pulse" class="js-selected-navigation-item sunken-menu-item" data-selected-links="pulse /kbicknell/ling400fall2015/pulse">
+        <span class="octicon octicon-pulse"></span> <span class="full-word">Pulse</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+
+    <li class="tooltipped tooltipped-w" aria-label="Graphs">
+      <a href="/kbicknell/ling400fall2015/graphs" aria-label="Graphs" class="js-selected-navigation-item sunken-menu-item" data-selected-links="repo_graphs repo_contributors /kbicknell/ling400fall2015/graphs">
+        <span class="octicon octicon-graph"></span> <span class="full-word">Graphs</span>
+        <img alt="" class="mini-loader" height="16" src="https://assets-cdn.github.com/images/spinners/octocat-spinner-32.gif" width="16" />
+</a>    </li>
+  </ul>
+
+
+</nav>
+
+            <div class="only-with-full-nav">
+                
+<div class="js-clone-url clone-url open"
+  data-protocol-type="http">
+  <h3 class="text-small text-muted"><span class="text-emphasized">HTTPS</span> clone URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini text-small text-muted input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/kbicknell/ling400fall2015.git" readonly="readonly" aria-label="HTTPS clone URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+  
+<div class="js-clone-url clone-url "
+  data-protocol-type="subversion">
+  <h3 class="text-small text-muted"><span class="text-emphasized">Subversion</span> checkout URL</h3>
+  <div class="input-group js-zeroclipboard-container">
+    <input type="text" class="input-mini text-small text-muted input-monospace js-url-field js-zeroclipboard-target"
+           value="https://github.com/kbicknell/ling400fall2015" readonly="readonly" aria-label="Subversion checkout URL">
+    <span class="input-group-button">
+      <button aria-label="Copy to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </span>
+  </div>
+</div>
+
+
+
+<div class="clone-options text-small text-muted">You can clone with
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=http&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="1490ff08cb7995dcd6b40aaf035ae2050df48e51" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="omvjc+q03uKD5pXYIA9dRFpbrERtklzV7br4bs3BydStxNgOI2WFl1Abm2cNVeXrNl+49T9zJ40OEgRkOaCnlA==" /></div><button class="btn-link js-clone-selector" data-protocol="http" type="submit">HTTPS</button></form> or <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="/users/set_protocol?protocol_selector=subversion&amp;protocol_type=clone" class="inline-form js-clone-selector-form " data-form-nonce="1490ff08cb7995dcd6b40aaf035ae2050df48e51" data-remote="true" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="03h1wq9kaAn6v5NlADG2g5mQROUZbACuRMXr9/SkwAOrAxudv39cXiY4EODdBVoJXxp0MlrJsghYbQoIwL7uHA==" /></div><button class="btn-link js-clone-selector" data-protocol="subversion" type="submit">Subversion</button></form>.
+  <a href="https://help.github.com/articles/which-remote-url-should-i-use" class="help tooltipped tooltipped-n" aria-label="Get help on which URL is right for you.">
+    <span class="octicon octicon-question"></span>
+  </a>
+</div>
+  <a href="https://mac.github.com" class="btn btn-sm sidebar-button" title="Save kbicknell/ling400fall2015 to your computer and use it in GitHub Desktop." aria-label="Save kbicknell/ling400fall2015 to your computer and use it in GitHub Desktop.">
+    <span class="octicon octicon-desktop-download"></span>
+    Clone in Desktop
+  </a>
+
+              <a href="/kbicknell/ling400fall2015/archive/gh-pages.zip"
+                 class="btn btn-sm sidebar-button"
+                 aria-label="Download the contents of kbicknell/ling400fall2015 as a zip file"
+                 title="Download the contents of kbicknell/ling400fall2015 as a zip file"
+                 rel="nofollow">
+                <span class="octicon octicon-cloud-download"></span>
+                Download ZIP
+              </a>
+            </div>
+        </div>
+        <div id="js-repo-pjax-container" class="repository-content context-loader-container" data-pjax-container>
+
+          
+
+<a href="/kbicknell/ling400fall2015/blob/a4c7ea3831effceb1b522744f451cb6da60bb98e/hw/hw2.Rmd" class="hidden js-permalink-shortcut" data-hotkey="y">Permalink</a>
+
+<!-- blob contrib key: blob_contributors:v21:140902e4af4bd118b3051e0b62392523 -->
+
+  <div class="file-navigation js-zeroclipboard-container">
+    
+<div class="select-menu js-menu-container js-select-menu left">
+  <button class="btn btn-sm select-menu-button js-menu-target css-truncate" data-hotkey="w"
+    title="gh-pages"
+    type="button" aria-label="Switch branches or tags" tabindex="0" aria-haspopup="true">
+    <i>Branch:</i>
+    <span class="js-select-button css-truncate-target">gh-pages</span>
+  </button>
+
+  <div class="select-menu-modal-holder js-menu-content js-navigation-container" data-pjax aria-hidden="true">
+
+    <div class="select-menu-modal">
+      <div class="select-menu-header">
+        <span class="octicon octicon-x js-menu-close" role="button" aria-label="Close"></span>
+        <span class="select-menu-title">Switch branches/tags</span>
+      </div>
+
+      <div class="select-menu-filters">
+        <div class="select-menu-text-filter">
+          <input type="text" aria-label="Filter branches/tags" id="context-commitish-filter-field" class="js-filterable-field js-navigation-enable" placeholder="Filter branches/tags">
+        </div>
+        <div class="select-menu-tabs">
+          <ul>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="branches" data-filter-placeholder="Filter branches/tags" class="js-select-menu-tab" role="tab">Branches</a>
+            </li>
+            <li class="select-menu-tab">
+              <a href="#" data-tab-filter="tags" data-filter-placeholder="Find a tag…" class="js-select-menu-tab" role="tab">Tags</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="branches" role="menu">
+
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+            <a class="select-menu-item js-navigation-item js-navigation-open selected"
+               href="/kbicknell/ling400fall2015/blob/gh-pages/hw/hw2.Rmd"
+               data-name="gh-pages"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="gh-pages">
+                gh-pages
+              </span>
+            </a>
+            <a class="select-menu-item js-navigation-item js-navigation-open "
+               href="/kbicknell/ling400fall2015/blob/master/hw/hw2.Rmd"
+               data-name="master"
+               data-skip-pjax="true"
+               rel="nofollow">
+              <span class="select-menu-item-icon octicon octicon-check"></span>
+              <span class="select-menu-item-text css-truncate-target" title="master">
+                master
+              </span>
+            </a>
+        </div>
+
+          <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+      <div class="select-menu-list select-menu-tab-bucket js-select-menu-tab-bucket" data-tab-filter="tags">
+        <div data-filterable-for="context-commitish-filter-field" data-filterable-type="substring">
+
+
+        </div>
+
+        <div class="select-menu-no-results">Nothing to show</div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+    <div class="btn-group right">
+      <a href="/kbicknell/ling400fall2015/find/gh-pages"
+            class="js-show-file-finder btn btn-sm empty-icon tooltipped tooltipped-nw"
+            data-pjax
+            data-hotkey="t"
+            aria-label="Quickly jump between files">
+        <span class="octicon octicon-list-unordered"></span>
+      </a>
+      <button aria-label="Copy file path to clipboard" class="js-zeroclipboard btn btn-sm zeroclipboard-button tooltipped tooltipped-s" data-copied-hint="Copied!" type="button"><span class="octicon octicon-clippy"></span></button>
+    </div>
+
+    <div class="breadcrumb js-zeroclipboard-target">
+      <span class="repo-root js-repo-root"><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kbicknell/ling400fall2015/tree/gh-pages" class="" data-branch="gh-pages" data-pjax="true" itemscope="url"><span itemprop="title">ling400fall2015</span></a></span></span><span class="separator">/</span><span itemscope="" itemtype="http://data-vocabulary.org/Breadcrumb"><a href="/kbicknell/ling400fall2015/tree/gh-pages/hw" class="" data-branch="gh-pages" data-pjax="true" itemscope="url"><span itemprop="title">hw</span></a></span><span class="separator">/</span><strong class="final-path">hw2.Rmd</strong>
+    </div>
+  </div>
+
+
+  <div class="commit-tease">
+      <span class="right">
+        <a class="commit-tease-sha" href="/kbicknell/ling400fall2015/commit/ac313451eafc8b3f506e4bb6ed67978fe4a489f8" data-pjax>
+          ac31345
+        </a>
+        <time datetime="2015-10-29T17:37:33Z" is="relative-time">Oct 29, 2015</time>
+      </span>
+      <div>
+        <img alt="@kbicknell" class="avatar" height="20" src="https://avatars2.githubusercontent.com/u/6352279?v=3&amp;s=40" width="20" />
+        <a href="/kbicknell" class="user-mention" rel="author">kbicknell</a>
+          <a href="/kbicknell/ling400fall2015/commit/ac313451eafc8b3f506e4bb6ed67978fe4a489f8" class="message" data-pjax="true" title="clarify classbios format in hw2">clarify classbios format in hw2</a>
+      </div>
+
+    <div class="commit-tease-contributors">
+      <a class="muted-link contributors-toggle" href="#blob_contributors_box" rel="facebox">
+        <strong>1</strong>
+         contributor
+      </a>
+      
+    </div>
+
+    <div id="blob_contributors_box" style="display:none">
+      <h2 class="facebox-header" data-facebox-id="facebox-header">Users who have contributed to this file</h2>
+      <ul class="facebox-user-list" data-facebox-id="facebox-description">
+          <li class="facebox-user-list-item">
+            <img alt="@kbicknell" height="24" src="https://avatars0.githubusercontent.com/u/6352279?v=3&amp;s=48" width="24" />
+            <a href="/kbicknell">kbicknell</a>
+          </li>
+      </ul>
+    </div>
+  </div>
+
+<div class="file">
+  <div class="file-header">
+  <div class="file-actions">
+
+    <div class="btn-group">
+      <a href="/kbicknell/ling400fall2015/raw/gh-pages/hw/hw2.Rmd" class="btn btn-sm " id="raw-url">Raw</a>
+        <a href="/kbicknell/ling400fall2015/blame/gh-pages/hw/hw2.Rmd" class="btn btn-sm js-update-url-with-hash">Blame</a>
+      <a href="/kbicknell/ling400fall2015/commits/gh-pages/hw/hw2.Rmd" class="btn btn-sm " rel="nofollow">History</a>
+    </div>
+
+        <a class="octicon-btn tooltipped tooltipped-nw"
+           href="https://mac.github.com"
+           aria-label="Open this file in GitHub Desktop"
+           data-ga-click="Repository, open with desktop, type:mac">
+            <span class="octicon octicon-device-desktop"></span>
+        </a>
+
+        <button type="button" class="octicon-btn disabled tooltipped tooltipped-nw"
+          aria-label="You must be signed in to make or propose changes">
+          <span class="octicon octicon-pencil"></span>
+        </button>
+        <button type="button" class="octicon-btn octicon-btn-danger disabled tooltipped tooltipped-nw"
+          aria-label="You must be signed in to make or propose changes">
+          <span class="octicon octicon-trashcan"></span>
+        </button>
+  </div>
+
+  <div class="file-info">
+      48 lines (32 sloc)
+      <span class="file-info-divider"></span>
+    8.9 KB
+  </div>
+</div>
+
+  
+  <div id="readme" class="blob instapaper_body">
+    <article class="markdown-body entry-content" itemprop="mainContentOfPage"><table data-table-type="yaml-metadata">
+  <thead>
+  <tr>
+  <th>title</th>
+
+  <th>author</th>
+
+  <th>output</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div>MSiA 490-20 / Ling 400: Homework 2</div></td>
+
+  <td><div>Instructor: Klinton Bicknell</div></td>
+
+  <td><div><table>
+  <thead>
+  <tr>
+  <th>html_document</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div><table>
+  <thead>
+  <tr>
+  <th>highlight</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+  <td><div>pygments</div></td>
+  </tr>
+  </tbody>
+</table></div></td>
+  </tr>
+  </tbody>
+</table></div></td>
+  </tr>
+  </tbody>
+</table>
+
+<p><em>parts adapted from Jorge Moraleda</em></p>
+
+<p><strong>Turning it in</strong>: You'll turn in a zip file via Canvas that contains (a) a write-up as a pdf and (b) the other items described below.</p>
+
+<h2><a id="user-content-tokenization-and-normalization" class="anchor" href="#tokenization-and-normalization" aria-hidden="true"><span class="octicon octicon-link"></span></a>Tokenization and normalization</h2>
+
+<p>The high level goal of this part of the assignment is to explore how differences in preprocessing can affect text analytic results. This also serves to introduce <a href="https://lucene.apache.org/core/">Apache Lucene Core</a>, a powerful text indexing and retrieval library widely used in industry, which we will also be using for later assignments.</p>
+
+<ol>
+<li><p><strong>Tokenization.</strong> You will compare two widely used tokenizers on a short piece of text named <code>wsj_0063</code>. This text was originally published in the <em>Wall Street Journal</em> in 1989 and is now part of the <a href="https://www.cis.upenn.edu/%7Etreebank/">Penn Treebank</a>, a widely used corpus that has been annotated for grammatical structure. While the full Penn Treebank is not free, this file can be found in the corpus's <a href="http://www.nltk.org/nltk_data/packages/corpora/treebank.zip">free sample</a> as included in the <a href="/kbicknell/ling400fall2015/blob/gh-pages/hw/www.nltk.org">NLTK</a> project. Note that this data is licensed for non-commercial use only. For the purposes of this exercise we'll be using the raw version of this text, available at <code>raw/wsj_0063</code>.</p>
+
+<p>The two tokenizers to compare are:</p>
+
+<ul>
+<li>The <a href="http://nlp.stanford.edu/software/tokenizer.shtml">Stanford tokenizer</a>, included in <a href="http://nlp.stanford.edu/software/corenlp.shtml">Stanford CoreNLP</a>, which was used for the previous assignment. Just as in the previous assignment, note that <a href="https://github.com/brendano/stanford_corenlp_pywrapper">Brendan O'Connor's python wrapper</a> works well on linux and macs.</li>
+<li><p>The standard unicode tokenizer, implemented by <a href="https://lucene.apache.org/core/">Lucene Core's</a> class <a href="http://lucene.apache.org/core/5_3_1/analyzers-common/org/apache/lucene/analysis/standard/StandardTokenizer.html"><code>StandardTokenizer</code></a>. Like CoreNLP, Lucene is Java software, so if you want to use this on python, you'll need a wrapper. The official one is <a href="http://lucene.apache.org/pylucene/">PyLucene</a>. Note also that, unlike the python wrappers for CoreNLP, PyLucene also works on all major platforms, including Windows.</p>
+
+<p>You will report the tokenization differences between both approaches. For each line where the tokenization differs between the two approaches, show the original string and the two alternative tokenizations. What patterns do you see in the differences?</p></li>
+</ul></li>
+<li><p><strong>Normalization.</strong> You will compare four widely used normalization algorithms, also on <code>wsj_0063</code>. Note that in Lucene Core, normalization algorithms are referred to as 'analyzers'. There is a <a href="http://lucene.apache.org/core/5_3_1/analyzers-common/org/apache/lucene/analysis/en/EnglishAnalyzer.html">list of analyzers for English</a></p>
+
+<ul>
+<li>Lucene Core's <a href="http://lucene.apache.org/core/5_3_1/analyzers-common/org/apache/lucene/analysis/en/EnglishAnalyzer.html"><code>EnglishAnalyzer</code></a>: Lucene Core's default for English, implementing the Porter Stemmer version 2</li>
+<li>Lucene Core's <a href="http://lucene.apache.org/core/5_3_1/analyzers-common/org/apache/lucene/analysis/en/PorterStemFilter.html"><code>PorterStemFilter</code></a>: implementing the original Porter Stemmer, which is also widely used in analytics</li>
+<li>Lucene Core's <a href="http://lucene.apache.org/core/5_3_1/analyzers-common/org/apache/lucene/analysis/en/KStemFilter.html"><code>KStemFilter</code></a>: a less aggressive stemmer</li>
+<li><p>CoreNLP's lemmatizer: a full-on lemmatizer, not just a quick-and-dirty stemmer; available by requesting <code>lemma</code> annotation in CoreNLP.</p>
+
+<p>As for the previous exercise, you will report the differences between these four approaches, for each line where the normalization differs between any of them. Describe the main ways the lemmatizer differs from the stemmers. Also describe the patterns you see in the differences between stemmers.</p>
+
+<p>Note: tokenization must be performed first before normalization. To make this simple, you can use Lucene to tokenize prior to applying the Lucene normalization algorithms and use CoreNLP to tokenizer prior to applying the CoreNLP normalization algorithms.</p></li>
+</ul></li>
+<li><p><strong>Tokenization and normalization.</strong> You will decide on a tokenization and normalization algorithm to apply to <code>classbios.txt</code> from the previous assignment. Make an argument as to why you selected that particular tokenization and normalization algorithm. Format the output so that there is one sentence per line and each token is separated by a space. Include your normalized <code>classbios.txt</code> file in the zip.</p></li>
+<li><p><strong>Basic frequency analysis.</strong> Write a program to calculate the frequency of each (normalized) word in the normalized <code>classbios.txt</code> corpus. Report the top 20 most frequent words, excluding stop words and punctuation, and their frequencies. Describe whether you think this list gives much information about this corpus. Did you learn anything about the backgrounds of the class?</p></li>
+<li><p><strong>Basic bigram analysis.</strong> Write a program to calculate the frequency of each bigram in the corpus (i.e., sequence of two words). Report the top 20 most frequent bigrams, excluding bigrams that include a stop word or punctuation, and their frequencies. Describe whether you think this list gives much information about this corpus. Did you learn anything about the backgrounds of the class?</p></li>
+<li><p><strong>Sentiment analysis.</strong> For the final exercise, you'll create a naive Bayes classifier to perform binary sentiment analysis on movie reviews. You'll use <a href="http://www.cs.cornell.edu/people/pabo/movie-review-data/review_polarity.tar.gz">Pang &amp; Lee's (2005) polarity dataset 2.0</a>, which consists of 1000 positive and 1000 negative movie reviews. Note that these reviews have already been pre-processed so that tokenization has already been done. Each review is in its own file, each sentence is on its own line, and each token is followed by a space. Specifically:</p>
+
+<ul>
+<li>construct a baseline naive Bayes classifier that uses only words as features. This is the type of naive Bayes classifier we discussed in class, that is equivalent to a unigram language model for each class (positive and negative). To construct it, you'll get the frequencies of every word in the vocabulary in each class, add 1 to all word frequencies in each class, and then normalize each frequency by dividing by the total to get a probability distribution. Finally, take the log of each probability to get a log-probability of each word for each class. [Note that this might be easiest using a vector library like python's <code>numpy</code>.] To apply the naive Bayes classifier, you'll calculate the log probability of a test review under each class by summing the log probabilities of each word in the review. (Ignore new words in the test reviews that weren't in training, since your models don't assign them a probability.) Finally, classify according to whichever log probability is higher. (Recall that log probabilities are always negative, so -2 is higher than -4.)</li>
+<li>evaluate your model: First, train on the first 100 examples in each class (those with filenames beginning with <code>cv0</code>), classify the 200 reviews with filenames that begin with <code>cv6</code> and <code>cv7</code> and report performance: precision, recall, and F score. Then, do the same for training on the first 300 examples, the first 500 examples, and finally, the first 600 examples (<code>cv0</code> to <code>cv5</code>), in each case testing on those that begin with <code>cv6</code> and <code>cv7</code>. Do you think performance would improve with even more examples?</li>
+<li>(optional) for bonus points: make a sentiment analysis system improved in some way from this baseline. This could be switching away from naive Bayes to some other classifier, adding other features, or both. When making your new system, make sure to leave your original system intact. While getting your new system to work, continue testing on the <code>cv6</code> and <code>cv7</code> files, which we're technically using as a validation set, and make sure that your new system is improving performance on those. Report how much you've improved performance on this set (precision, recall, F score).</li>
+<li>Finally, evaluate your classifier (and your improved classifier, if you did the bonus) <strong>just once</strong> on the actually held-out test data you haven't yet evaluated on: the 200 files beginning with <code>cv8</code> and <code>cv9</code>. For this evaluation, train on the first 800 files (<code>cv0</code> to <code>cv7</code>). Report performance of the original classifier (and your new classifier if you did the bonus) on this data. If your original classifier performance was substantially different evaluated on <code>cv8</code> and <code>cv9</code> than it was previously on <code>cv6</code> and <code>cv7</code>, why do you think that was? If you did the bonus, and your new system didn't outperform your original classifier on this new data, but did outperform it previously on the <code>cv6</code> and <code>cv7</code> files, what do you think happened?</li>
+<li><strong>turn it in:</strong> include all your classifier source code and its output predictions for the final test set (<code>cv8</code> to <code>cv9</code>).</li>
+</ul></li>
+</ol>
+</article>
+  </div>
+
+</div>
+
+<a href="#jump-to-line" rel="facebox[.linejump]" data-hotkey="l" style="display:none">Jump to Line</a>
+<div id="jump-to-line" style="display:none">
+  <!-- </textarea> --><!-- '"` --><form accept-charset="UTF-8" action="" class="js-jump-to-line-form" method="get"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /></div>
+    <input class="linejump-input js-jump-to-line-field" type="text" placeholder="Jump to line&hellip;" aria-label="Jump to line" autofocus>
+    <button type="submit" class="btn">Go</button>
+</form></div>
+
+        </div>
+      </div>
+      <div class="modal-backdrop"></div>
+    </div>
+  </div>
+
+
+    </div>
+
+      <div class="container">
+  <div class="site-footer" role="contentinfo">
+    <ul class="site-footer-links right">
+        <li><a href="https://status.github.com/" data-ga-click="Footer, go to status, text:status">Status</a></li>
+      <li><a href="https://developer.github.com" data-ga-click="Footer, go to api, text:api">API</a></li>
+      <li><a href="https://training.github.com" data-ga-click="Footer, go to training, text:training">Training</a></li>
+      <li><a href="https://shop.github.com" data-ga-click="Footer, go to shop, text:shop">Shop</a></li>
+        <li><a href="https://github.com/blog" data-ga-click="Footer, go to blog, text:blog">Blog</a></li>
+        <li><a href="https://github.com/about" data-ga-click="Footer, go to about, text:about">About</a></li>
+        <li><a href="https://github.com/pricing" data-ga-click="Footer, go to pricing, text:pricing">Pricing</a></li>
+
+    </ul>
+
+    <a href="https://github.com" aria-label="Homepage">
+      <span class="mega-octicon octicon-mark-github" title="GitHub"></span>
+</a>
+    <ul class="site-footer-links">
+      <li>&copy; 2015 <span title="0.04239s from github-fe132-cp1-prd.iad.github.net">GitHub</span>, Inc.</li>
+        <li><a href="https://github.com/site/terms" data-ga-click="Footer, go to terms, text:terms">Terms</a></li>
+        <li><a href="https://github.com/site/privacy" data-ga-click="Footer, go to privacy, text:privacy">Privacy</a></li>
+        <li><a href="https://github.com/security" data-ga-click="Footer, go to security, text:security">Security</a></li>
+        <li><a href="https://github.com/contact" data-ga-click="Footer, go to contact, text:contact">Contact</a></li>
+        <li><a href="https://help.github.com" data-ga-click="Footer, go to help, text:help">Help</a></li>
+    </ul>
+  </div>
+</div>
+
+
+
+    
+    
+    
+
+    <div id="ajax-error-message" class="flash flash-error">
+      <span class="octicon octicon-alert"></span>
+      <button type="button" class="flash-close js-flash-close js-ajax-error-dismiss" aria-label="Dismiss error">
+        <span class="octicon octicon-x"></span>
+      </button>
+      Something went wrong with that request. Please try again.
+    </div>
+
+
+      <script crossorigin="anonymous" integrity="sha256-Ln/D0mSiCOE4PehbgVN5vsz/VsH5d3FFFdTKx4IO7z4=" src="https://assets-cdn.github.com/assets/frameworks-2e7fc3d264a208e1383de85b815379beccff56c1f977714515d4cac7820eef3e.js"></script>
+      <script async="async" crossorigin="anonymous" integrity="sha256-47bA1zJOdboD+FvZpYaX4fsMAtEMkyaAXVEfpstqDSE=" src="https://assets-cdn.github.com/assets/github-e3b6c0d7324e75ba03f85bd9a58697e1fb0c02d10c9326805d511fa6cb6a0d21.js"></script>
+      
+      
+    <div class="js-stale-session-flash stale-session-flash flash flash-warn flash-banner hidden">
+      <span class="octicon octicon-alert"></span>
+      <span class="signed-in-tab-flash">You signed in with another tab or window. <a href="">Reload</a> to refresh your session.</span>
+      <span class="signed-out-tab-flash">You signed out in another tab or window. <a href="">Reload</a> to refresh your session.</span>
+    </div>
+  </body>
+</html>
+

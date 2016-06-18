@@ -1,0 +1,250 @@
+DocId,Document,Top_Topic
+0,Abu Dhabi_United Arab Emirates,29
+1,Abuja_Nigeria,13
+2,Accra_Ghana,52
+3,"Adamstown, Pitcairn Island_Pitcairn Islands",5
+4,Addis Ababa_Ethiopia,13
+5,Algiers_Algeria,39
+6,Alofi_Niue,13
+7,Amman_Jordan,13
+8,Amsterdam_Netherlands,13
+9,Andorra la Vella_Andorra,15
+10,Ankara_Turkey,64
+11,Antananarivo_Madagascar,13
+12,Apia_Samoa,55
+13,Ashgabat_Turkmenistan,27
+14,Asmara_Eritrea,13
+15,Astana_Kazakhstan,13
+16,Asuncion_Paraguay,7
+17,Athens_Greece,86
+18,Avarua_Cook Islands,5
+19,Baghdad_Iraq,6
+20,Baku_Azerbaijan,22
+21,Bamako_Mali,13
+22,Bandar Seri Begawan_Brunei,92
+23,Bangkok_Thailand,63
+24,Bangui_Central African Republic,12
+25,Banjul_The Gambia,15
+26,Basse-Terre_Guadeloupe,13
+27,Basseterre_Saint Kitts and Nevis,49
+28,Beijing_China,47
+29,Beirut_Lebanon,6
+30,Belgrade_Serbia,14
+31,Belmopan_Belize,13
+32,Berlin_Germany,53
+33,Bern_Switzerland,13
+34,Bishkek_Kyrgyzstan,13
+35,Bissau_Guinea-Bissau,13
+36,Bogotá_Colombia,13
+37,Brasília_Brazil,13
+38,Bratislava_Slovakia,33
+39,Brazzaville_Republic of the Congo,48
+40,Bridgetown_Barbados,13
+41,Bucharest_Romania,13
+42,Budapest_Hungary,33
+43,Buenos Aires_Argentina,13
+44,Bujumbura_Burundi,13
+45,Cairo_Egypt,13
+46,Canberra_Australia,13
+47,Cape Town_South Africa,13
+48,Caracas_Venezuela,7
+49,Castries_Saint Lucia,49
+50,Cayenne_French Guiana,13
+51,"Charlotte Amalie, United States Virgin Islands_United States Virgin Islands",54
+52,Chisinau_Moldova,66
+53,City of Brussels_Belgium,13
+54,City of San Marino_San Marino,50
+55,Cockburn Town_Turks and Caicos Islands,13
+56,Conakry_Guinea,13
+57,Copenhagen_Denmark,13
+58,Dakar_Senegal,13
+59,Damascus_Syria,6
+60,Dhaka_Bangladesh,13
+61,Dili_East Timor,2
+62,Djibouti (city)_Djibouti,13
+63,Dodoma_Tanzania,80
+64,Doha_Qatar,13
+65,"Douglas, Isle of Man_Isle of Man",89
+66,Dublin_Republic of Ireland,89
+67,Dushanbe_Tajikistan,81
+68,East Jerusalem_Palestinian National Authority,56
+69,Edinburgh of the Seven Seas_Tristan da Cunha,5
+70,Episkopi Cantonment_Akrotiri and Dhekelia,95
+71,Flying Fish Cove_Christmas Island,5
+72,Fort-de-France_Martinique,13
+73,Freetown_Sierra Leone,69
+74,Funafuti_Tuvalu,3
+75,Gaborone_Botswana,13
+76,"George Town, Cayman Islands_Cayman Islands",37
+77,"Georgetown, Ascension Island_Ascension Island",5
+78,"Georgetown, Guyana_Guyana",13
+79,Gibraltar_Gibraltar,13
+80,Guatemala City_Guatemala,12
+81,"Gustavia, Saint Barthélemy_Saint Barthélemy",49
+82,Hagåtña_Guam,83
+83,"Hamilton, Bermuda_Bermuda",13
+84,Hanga Roa_Easter Island,13
+85,Hanoi_Vietnam,13
+86,Harare_Zimbabwe,13
+87,Hargeisa_Somaliland,90
+88,Havana_Cuba,13
+89,Helsinki_Finland,13
+90,Hong Kong_Hong Kong,96
+91,Honiara_Solomon Islands,60
+92,Islamabad_Pakistan,13
+93,Jakarta_Indonesia,2
+94,"Jamestown, Saint Helena_Saint Helena",13
+95,Jerusalem_Israel,56
+96,Juba_South Sudan,34
+97,Kabul_Afghanistan,27
+98,Kampala_Uganda,13
+99,Kathmandu_Nepal,45
+100,Khartoum_Sudan,12
+101,Kiev_Ukraine,13
+102,Kigali_Rwanda,13
+103,King Edward Point_South Georgia and the South Sandwich Islands,51
+104,"Kingston, Jamaica_Jamaica",13
+105,"Kingston, Norfolk Island_Norfolk Island",15
+106,"Kingstown, Saint Vincent and the Grenadines_Saint Vincent and the Grenadines",49
+107,Kinshasa_Democratic Republic of the Congo,13
+108,Kuala Lumpur_Malaysia,13
+109,Kuwait City_Kuwait,13
+110,Laayoune_Sahrawi Arab Democratic Republic,12
+111,Libreville_Gabon,48
+112,Lilongwe_Malawi,13
+113,Lima_Peru,13
+114,Lisbon_Portugal,40
+115,Ljubljana_Slovenia,94
+116,Lobamba_Swaziland,13
+117,Lomé_Togo,48
+118,London_United Kingdom,13
+119,Luanda_Angola,13
+120,Lusaka_Zambia,13
+121,Luxembourg (city)_Luxembourg,13
+122,Madrid_Spain,13
+123,Majuro_Marshall Islands,83
+124,Malabo_Equatorial Guinea,71
+125,Malé_Maldives,13
+126,Mamoudzou_Mayotte,15
+127,Managua_Nicaragua,7
+128,Manama_Bahrain,65
+129,Manila_Philippines,13
+130,Maputo_Mozambique,13
+131,"Marigot, Saint Martin_Collectivity of Saint Martin",15
+132,Maseru_Lesotho,1
+133,Mata-Utu_Wallis and Futuna,60
+134,Mexico City_Mexico,13
+135,Minsk_Belarus,13
+136,Mogadishu_Somalia,90
+137,Monaco_Monaco,13
+138,Monrovia_Liberia,13
+139,Montevideo_Uruguay,13
+140,"Moroni, Comoros_Comoros",13
+141,Moscow_Russia,38
+142,"Muscat, Oman_Oman",65
+143,N'Djamena_Chad,13
+144,Nairobi_Kenya,13
+145,"Nassau, Bahamas_The Bahamas",13
+146,Naypyidaw_Myanmar,13
+147,New Delhi_India,13
+148,Ngerulmud_Palau,83
+149,Niamey_Niger,13
+150,Nicosia_Cyprus,8
+151,Nicosia_Northern Cyprus,8
+152,Nouakchott_Mauritania,12
+153,Nouméa_New Caledonia,13
+154,Nukuʻalofa_Tonga,13
+155,Nuuk_Greenland,13
+156,"Oranjestad, Aruba_Aruba",26
+157,Oslo_Norway,13
+158,Ottawa_Canada,13
+159,Ouagadougou_Burkina Faso,13
+160,Pago Pago_American Samoa,55
+161,Palikir_Federated States of Micronesia,83
+162,Panama City_Panama,13
+163,Papeete_French Polynesia,70
+164,Paramaribo_Suriname,13
+165,Paris_France,70
+166,"Philipsburg, Sint Maarten_Sint Maarten",49
+167,Phnom Penh_Cambodia,44
+168,"Plymouth, Montserrat_Montserrat",13
+169,Podgorica_Montenegro,13
+170,Port Louis_Mauritius,13
+171,Port Moresby_Papua New Guinea,13
+172,Port Vila_Vanuatu,13
+173,Port of Spain_Trinidad and Tobago,13
+174,Port-au-Prince_Haiti,13
+175,Porto-Novo_Benin,13
+176,Prague_Czech Republic,13
+177,Praia_Cape Verde,13
+178,Pristina_Kosovo,14
+179,Pyongyang_North Korea,93
+180,Quito_Ecuador,23
+181,Rabat_Morocco,13
+182,Reykjavík_Iceland,13
+183,Riga_Latvia,17
+184,Riyadh_Saudi Arabia,65
+185,Road Town_British Virgin Islands,5
+186,Rome_Italy,13
+187,Roseau_Dominica,13
+188,"Saint-Denis, Réunion_Réunion",13
+189,Saipan_Northern Mariana Islands,83
+190,"San José, Costa Rica_Costa Rica",13
+191,"San Juan, Puerto Rico_Puerto Rico",54
+192,San Salvador_El Salvador,99
+193,Sana'a_Yemen,46
+194,Santiago_Chile,13
+195,Santo Domingo_Dominican Republic,13
+196,Sarajevo_Bosnia and Herzegovina,14
+197,Seoul_South Korea,93
+198,Singapore_Singapore,13
+199,Skopje_Republic of Macedonia,13
+200,Sofia_Bulgaria,13
+201,Sri Jayawardenepura Kotte_Sri Lanka,0
+202,"St. George's, Grenada_Grenada",13
+203,St. Helier_Jersey,89
+204,"St. John's, Antigua and Barbuda_Antigua and Barbuda",13
+205,St. Peter Port_Guernsey,89
+206,"St. Pierre, Saint-Pierre and Miquelon_Saint Pierre and Miquelon",5
+207,"Stanley, Falkland Islands_Falkland Islands",5
+208,Stepanakert_Nagorno-Karabakh Republic,22
+209,Stockholm_Sweden,13
+210,Sucre_Bolivia,13
+211,Sukhumi_Abkhazia,21
+212,Suva_Fiji,13
+213,São Tomé_São Tomé and Príncipe,40
+214,Taipei_Taiwan,47
+215,Tallinn_Estonia,17
+216,Tarawa Atoll_Kiribati,3
+217,Tashkent_Uzbekistan,13
+218,Tbilisi_Georgia (country),21
+219,Tegucigalpa_Honduras,13
+220,Tehran_Iran,13
+221,"The Valley, Anguilla_Anguilla",13
+222,Thimphu_Bhutan,45
+223,Tirana_Albania,13
+224,Tiraspol_Transnistria,66
+225,Tokyo_Japan,20
+226,Tripoli_Libya,12
+227,Tskhinvali_South Ossetia,21
+228,Tunis_Tunisia,39
+229,Tórshavn_Faroe Islands,74
+230,Ulaanbaatar_Mongolia,13
+231,Vaduz_Liechtenstein,15
+232,Valletta_Malta,13
+233,Vatican City_Vatican City,87
+234,"Victoria, Seychelles_Seychelles",91
+235,Vienna_Austria,53
+236,Vientiane_Laos,44
+237,Vilnius_Lithuania,13
+238,Warsaw_Poland,13
+239,"Washington, D.C._United States",13
+240,Wellington_New Zealand,60
+241,"West Island, Cocos (Keeling) Islands_Cocos (Keeling) Islands",5
+242,Willemstad_Curaçao,13
+243,Windhoek_Namibia,1
+244,Yamoussoukro_Ivory Coast,13
+245,Yaoundé_Cameroon,48
+246,Yaren district_Nauru,15
+247,Yerevan_Armenia,13
+248,Zagreb_Croatia,13

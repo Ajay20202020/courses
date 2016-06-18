@@ -1,0 +1,6 @@
+Query: city_text:shakespeare~2
+Results found: 4
+London, United Kingdom (0.06778301)
+Cairo, Egypt (0.06710176)
+Prague, Czech Republic (0.06710176)
+Washington, D.C., United States (0.0575158)

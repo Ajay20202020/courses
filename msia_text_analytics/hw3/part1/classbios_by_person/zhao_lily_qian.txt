@@ -1,0 +1,13 @@
+
+Hi Professor Bicknell, thank you very much to be with us for Text Analytics this quarter.
+
+My name is Lily(Qian) Zhao and I am originally from Beijing, China. I came directly after got my bachelor degree in Electrical Engineering. My interest grew into data analytics when I was a research assistant at school using MATLAB to analyze data from dynamic electricity power system. For internship experience, I interned at Accenture, China Electric Power Institute and Micron Technology before yet no full time experience so far.
+
+I got my first glimpse of text analytics when theres a new product came to the Chinese facebook four or five years ago, renren.com, where people could generate the key words of their social network and the font size indicated the frequency. 
+
+I thought it was very cool yet that was it. Until recently (well, a few months ago) I started a series of data mining online courses from UIUC (https://www.coursera.org/specializations/datamining) There are two Text Analytics related courses: Text Retrieval and Search Engines / Text Mining and Analytics. I completed both and really liked the topics. The first one is more about the concept and the second one is more about application. In the second courses programming assignment, Yelp provided a (huge) dataset (with review, business info etc.) for the students to practice and I found it was quite cool to extract very much and valuable information out of the raw text. (Please refer to https://lilyqianz.files.wordpress.com/2015/09/coursera_datamining_wk1.pdf  for a sample of my homework )
+
+As a fan of the bay area and a interest in analytics, I would love to start my career in data analytics in the SF bay area. And maybe I would get back to school for further education after a year or two of work.
+
+For I am very interested in marrying visualization and text analytics, could you please give any recommendation for that? (books, paper or tools?) Thank you very much! I am very excited for this class!
+

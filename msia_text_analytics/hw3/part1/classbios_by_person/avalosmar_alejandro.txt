@@ -1,0 +1,11 @@
+
+hw0: Alejandro Avalos Mar
+I was born in Tucson, Arizona, raised in Mexico and moved in 09 to Kelowna, BC, Canada to pursue my undergraduate degree. I attended The University of British Columbia, and graduated with a BSc. in Economics, with a minor in Mathematics and Statistics. I am extremely interested in sabermetrics (sports analytics), and it is the reason I discovered my passion for analytics and data science. After I completed my bachelors degree, I came straight to MSiA. Prior to coming to MSiA, I was an intern for Big Surf, a beer company in Canada, as an Operations Intern. My main focus was to document and overview their brewing process.
+I became interested in Text Analytics last academic year when I read a very interesting article that said the sentiment, or mood, of tweets could predict stock movement. I was really intrigued by this article, and since then I have wanted to dig in deeper in the text analytics field.
+These are some of the projects and companies I have worked during the MSiA program:
+
+- Motorola Mobility (practicum)  Worked in a clustering project where we were segmenting their users based on customer behavior.
+- Tampa Bay Rays (Summer Internship)  Worked as a Baseball Analytics Intern in their Baseball Operation and R&amp;D department. My main project was to help their international development and scouting division, by trying to build predictive models that could asses how good of a player a 16 year old would be (age when the international players are signed) when they reach their prime years (~25-26 years old).
+- Anjoui  This is a start-up created from NUventions Analytics (I took this class instead of Python). We are a company that connects cooks with local diners looking for a fresh and home cooked meal at an affordable price.
+
+In the near future, I would love to be part of a sports team managing their analytics endeavors. I am also extremely interested in the tech, retail and tourism industry, specifically in Marketing and Sales. I would also love to enroll in an MBA program after gaining 5-10 years of working experience after MSiA. I believe that an MBA will truly complement the skills I am gaining at MSiA.

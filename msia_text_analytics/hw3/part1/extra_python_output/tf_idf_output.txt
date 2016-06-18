@@ -1,0 +1,24 @@
+
+********************************
+
+
+*Top****************************
+
+      indices                           names     value
+rank                                                   
+1     (2, 15)       (bhargava_anuj, lin_luis)  0.118973
+2     (4, 10)   (cambo_scott, heston_matthew)  0.103557
+3      (2, 3)  (bhargava_anuj, bozoklar_berk)  0.100005
+
+*Bottom*************************
+
+       indices                                names     value
+rank                                                         
+1      (9, 13)    (herrera_alejandro, leboeuf_mark)  0.005919
+2     (13, 17)           (leboeuf_mark, mays_jacob)  0.007173
+3      (9, 10)  (herrera_alejandro, heston_matthew)  0.008669
+
+********************************
+
+Output files saved in: /Users/Steven/Documents/Academics/3_Graduate School/2014-2015_NU/MSIA_490_Text_Mining/hw/hw3
+

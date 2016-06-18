@@ -1,0 +1,32 @@
+
+I grew up in the small town of West Brookfield, Massachusetts, but generally when people ask Where are you from?, I say Worcester.
+I moved there when I was 18 and still consider the seven years I spent working as a cabinet maker, a musician, and a board member of
+ a small non-profit my most formative years.  In 2008, the housing market began to take a dive and so did the market for custom cabinetry.
+It was at this time that I decided I take a chance on getting a college education.
+
+I worked three part-time jobs (contractor, lab assistant, rock climbing instructor) when I first attended community
+ college and quickly realized that while I was interested in working with computers,
+I was more interested in human-computer interactions.  Eventually, I began working with Jeremy Birnholtz and Jeff Hancock on a project
+that sought to understand the role of deception in text messaging and a phenomenon they called Butler Lies.  This project got me very
+interested in text analysis and how the information derived from text data was connected with real human social behavior.
+ I continued this work in my undergraduate honors thesis where I attempted to create a predictive model of deception in
+text messaging to further understand its role and prevalence.  While the ultimate conclusion was simply that the main
+ lies that can accurately be detected are those that may seem obvious, such as Im on my way, it helped support the
+argument that when people are able to hide their context (where they really are, what they are really doing), they
+will often employ deception as a strategy in social life management.
+
+Upon graduation, I received the Data Science for Social Good fellowship where I worked on a project which used co-occurrence
+matrices of keywords in a corpus of job postings and resumes to understand the real supply and demand of skills in the job
+market.  This fellowship exposed me to many different kind of data analyses and their pros and cons.  When I began at Northwestern University
+as a student in Technology and Social Behavior, I wanted to better understand how these data analyses can help or hurt research and development
+in sociotechnical systems which is why much of my current research employs a mixed methods approach with both quantitative data analysis and
+qualitative interviews with the participants who volunteered the data.
+
+In the future, I hope to begin bridging the gap between the design of algorithms used for context sensing and personal
+informatics and the user interactions that typically generate the data used in these algorithms.  My hypothesis is that
+a well designed user interaction can further the goals of the participant while simultaneously making the learning
+problem more tractable for machine learning algorithms in context-sensing.  I believe that if both application
+design and research begin seeing these as inseparable problems, then we begin developing context-sensing applications
+that truly help individuals with the kind of self-reflection and self-monitoring needed for treating mental
+illness such as those used in cognitive behavioral therapy.
+

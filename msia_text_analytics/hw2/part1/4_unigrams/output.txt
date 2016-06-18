@@ -1,0 +1,72 @@
+
+********************************
+
+- Number of lines: 182
+- Number of sentences: 500
+- Number of tokens: 10379
+
+********************************
+
+Number of unigrams (after removing unigrams with stop words and punctuation): 1830
+
+Top 20 Unigrams:
+
+          datum : 127
+       analytic : 104
+           text : 82
+           work : 69
+        program : 44
+     University : 42
+        project : 41
+            use : 39
+       research : 36
+          field : 35
+       analysis : 35
+           year : 32
+     interested : 29
+       business : 29
+       interest : 27
+   Northwestern : 26
+         degree : 25
+        science : 24
+        develop : 24
+       graduate : 24
+
+*Note: if there are ties for the values for k, it includes all those values as well. (So the function might return more than k elements)
+
+********************************
+
+Number of Bigrams (after removing bigrams with stop words and punctuation): 1853
+
+Top 20 Bigrams:
+
+           text, analytic : 46
+ Northwestern, University : 17
+          datum, analysis : 14
+           msium, program : 13
+       become, interested : 12
+           datum, science : 12
+        machine, learning : 11
+              text, datum : 8
+         datum, scientist : 7
+           master, degree : 6
+        computer, science : 6
+            look, forward : 6
+               big, datum : 6
+      unstructured, datum : 6
+            social, media : 6
+             text, mining : 6
+              would, like : 5
+    undergraduate, degree : 5
+            datum, mining : 5
+        predictive, model : 5
+          datum, analytic : 5
+           datum, quality : 5
+               also, work : 5
+
+*Note: if there are ties for the values for k, it includes all those values as well. (So the function might return more than k elements)
+
+********************************
+
+Output files saved in: /Users/Steven/Documents/Academics/3_Graduate School/2014-2015_NU/MSIA_490_Text_Mining/hw/hw2
+

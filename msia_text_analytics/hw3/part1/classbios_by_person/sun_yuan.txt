@@ -1,0 +1,10 @@
+
+My name is Yuan Sun. I am originally from Hunan province, central south part of China. I pursued my Bachelor of Science degree in Statistics at National University of Singapore (NUS). Upon graduating from NUS, I started to work as a Data Scientist at Singapore Telecommunications Limited (SingTel), one of the largest leading communications group worldwide. I then applied my knowledge in statistical theory and data analytics techniques to develop a series of predictive models to address the marketing challenges in business.
+
+Working at the forefront of analytics within a dynamic and fast-growing team at SingTel, I have quickly built up foundational knowledge in a comprehensive portfolio of telecommunications services, such as voice and data solutions over wireless, Internet, and fixed platforms, and pay TV. In one of my core projects, I have developed mastery of churn propensity models, which are deeply integrated into customer retention management.
+
+My interest in grasping more innovative analytics techniques and solutions has led me to pursue an advanced degree in analytics after working in SingTel for two years.  Through the MSiA at Northwestern University, I would like to continue growing my knowledge in machine learning, data mining and specifically acquire essential techniques to process large volume of structured and unstructured data to create actionable insights in the big data environment for businesses. 
+
+I have enjoyed three wonderful quarters with the rest of the MSiA gamma cohorts, learnt great skills and met lots of friend here at Northwestern University. For my last quarter, I have picked Text Analytics as the special topic course because I have always been interested to know how to derive high-quality information to derive business decisions from the mess and massive text. On one hand, there are various real-world use cases applied in the tech industry. On the other hand, knowing the underlying processing principles also helps me to quickly master lots of the popular text-mining software. Through this course, I would like to develop expert knowledge in the text analytics techniques.
+
+

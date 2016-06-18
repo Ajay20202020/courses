@@ -1,0 +1,18 @@
+
+where youre from
+My name is Xiaofeng Zhu, a second year graduate student in computer science. I come from a small but beautiful coastal city in china. I went to a university very close to my hometown, after that applied the computer science master program of Northwestern University in 2013, and then was luckily switched to the Ph.D. program one year later. My current research focuses on text mining and knowledge management.
+
+what brought you to your current graduate program (e.g., MSiA)?
+The direct reason why I applied my current graduate program is that computer science was the only sophisticated subject I had been working on before I wanted to go abroad for further study, which means I basically had no other choice at that moment. Another stronger reason is that I was taught to find out prospective and challenging aspects of directing and/or teaching computers to handle things that are difficult for human beings.
+
+what did you do before this program?
+Nothing huge has happened to me till now. Before being enrolled into this program, I spent most of my time trying to become a professional student in order to get into Northwestern University. I started to get to know some common methods in data mining when I was a undergraduate student, but didnt narrow down my study field to text mining until I came to Northwestern University.
+
+when did you become interested in text analytics?
+I was once asked to do a question and answer web application for a course project using Watson API of which one core component is text analytics. Understanding the semantic meaning of text and being able to learn information automatically was so attracting that I felt in love with text analytics at first sight. Since then, I have been doing text analytics related projects for almost two years.
+
+what are your plans for the future?
+I will and would love to devote myself to the knowledge acquisition and semantic query research field no matter in industry or academia.
+
+whatever else you want to include!
+In general, I am a physically and mentally healthy person. Being dedicated and enjoying fun is always my life and study goal.

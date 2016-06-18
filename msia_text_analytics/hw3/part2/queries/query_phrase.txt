@@ -1,0 +1,3 @@
+Query: city_text:"locat below sea level"~10
+Results found: 1
+Baku, Azerbaijan (0.09178771)

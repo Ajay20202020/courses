@@ -1,0 +1,2 @@
+docID,F,precision,recall
+800,0.79,0.8,0.77

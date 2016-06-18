@@ -1,0 +1,13 @@
+
+Alan was born in Argentina but spent most of his youth in Iowa, after his family moved there when he was eight years old. As a kid, he spent much of his time playing soccer and tennis. He also enjoyed playing music and became an avid guitar player in high school. 
+
+Alans first exposure to the field of text analytics came while pursuing his undergraduate degree in Economics and Management Information Systems at the University of Iowa, when he conducted research on unstructured data during a summer internship. Later in his undergraduate career, through another internship at Ernst & Young, he discovered an inclination for quantitative analysis and client-facing work.
+
+Upon graduation, Alan continued in consulting and joined Accentures IT Strategy practice, where he worked on a variety of projects across industries  from devising metric scorecards for the CIO of a bank, to supporting a $1B systems implementation at a consumer products manufacturer. His time at these corporations, however, made him wonder why many effective private-sector practices were not more widely adopted by the government or the sector he was most passionate about: education.
+
+This led Alan to pursue an Education Pioneers Fellowship at the Illinois Network of Charter Schools. In this role, he supported efforts to improve education policy by producing quantitative analyses for policy makers, media outlets, school leaders, and philanthropic foundations. He visualized school performance across Chicago community areas to lobby legislators, created maps to identify the best school districts for new schools, and even collaborated with researchers at the University of Chicago to determine the impact of various school models on student outcomes. This role helped him discover his passion for data science and motivated him to enroll in MSiA.
+
+As a student in MSiA, Alan has most enjoyed his classes in machine learning (e.g. data mining, predictive analytics). This past summer, he applied these and other skills at an internship at the University of Chicagos Data Science for Social Good (DSSG) Fellowship. In this role, he worked with the World Bank to develop models for detecting collusion and fraud in international development projects; the Department of Labor to develop new metrics on local labor markets; and several school districts to identify which factors are most important for tracking students which are at risk for dropping out of high school and not completing through college. 
+
+After graduation, Alan plans to pursue a data science or product management role. He is initially targeting the private sector, but is open to any organization that solves interesting problems and will invest in his professional development 
+

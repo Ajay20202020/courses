@@ -1,0 +1,12 @@
+
+##Daniel Tucker
+##dmt944
+##LING400 (FA2015)
+
+According to venerable family tradition, I was raised by a solitary shewolf in the Adirondack Mountains of northern New York until my chance discovery by a rogue botanist at age 4. It took several years of supervised therapy, behavioral correction, and operant conditioning until the local school district relunctantly deemed me fit for normal human interaction. This much, at least, my parents contend to be true.
+
+On a more serious note, I became interested in language -- and more generally, its scientific study -- as a sophomore at university. Due to some rather odd pre-collegiate educational circumstances that I will not elaborate on here, I did not encounter a "foreign language" until I took my first foreign language course during my second year as a college student. At that point, I became enthralled with the languages of the world, their structure, and their literary dimensions. After several additional academic turns (the details of which I do not have time to expound upon here), I settled at Northwestern University in pursuit of a PhD in linguistics.
+
+I became interested in text analytics thanks to my education here at NU as methods of analyzing texts have figured prominently into both course projects and departmental milestones. Though most of my work to date has focused solely on static corpora, I do hope to expand to looking at more dynamic corpora (or better: corpora of languages that are still living!).
+
+In the future, I hope to be outstanding in the field of excellence. In addition to pursuing my research interests in supervised and unsupervised language acquisition, I hope to apply insights from these domains to language learning curricula and technologies in some meaningful way.

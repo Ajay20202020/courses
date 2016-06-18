@@ -1,0 +1,102 @@
+0_Raw              ==> .START  
+1_Corenlp          ==> [.] [START] 
+2_EnglishAnalyzer  ==> [start] 
+3_KStem            ==> [start] 
+4_PorterStem       ==> [start] 
+
+0_Raw              ==> Sea Containers Ltd. said it might increase the price of its $70-a-share buy-back plan if pressed by Temple Holdings Ltd., which made an earlier tender offer for Sea Containers.  
+1_Corenlp          ==> [Sea] [Containers] [Ltd.] [say] [it] [might] [increase] [the] [price] [of] [its] [$] [70-a-share] [buy-back] [plan] [if] [press] [by] [Temple] [Holdings] [Ltd.] [,] [which] [make] [a] [earlier] [tender] [offer] [for] [Sea] [Containers] [.] 
+2_EnglishAnalyzer  ==> [sea] [contain] [ltd] [said] [might] [increas] [price] [it] [70] [share] [bui] [back] [plan] [press] [templ] [hold] [ltd] [which] [made] [earlier] [tender] [offer] [sea] [contain] 
+3_KStem            ==> [sea] [container] [ltd] [said] [it] [might] [increase] [the] [price] [of] [its] [a] [share] [buy] [back] [plan] [if] [pressed] [by] [temple] [holding] [ltd] [which] [made] [an] [early] [tender] [offer] [for] [sea] [container] 
+4_PorterStem       ==> [sea] [contain] [ltd] [said] [it] [might] [increas] [the] [price] [of] [it] [a] [share] [bui] [back] [plan] [if] [press] [by] [templ] [hold] [ltd] [which] [made] [an] [earlier] [tender] [offer] [for] [sea] [contain] 
+
+0_Raw              ==> Sea Containers, a Hamilton, Bermuda-based shipping concern, said Tuesday that it would sell $1.1 billion of assets and use some of the proceeds to buy about 50% of its common shares for $70 apiece.  
+1_Corenlp          ==> [Sea] [Containers] [,] [a] [Hamilton] [,] [bermuda-based] [shipping] [concern] [,] [say] [Tuesday] [that] [it] [would] [sell] [$] [1.1] [billion] [of] [asset] [and] [use] [some] [of] [the] [proceeds] [to] [buy] [about] [50] [%] [of] [its] [common] [share] [for] [$] [70] [apiece] [.] 
+2_EnglishAnalyzer  ==> [sea] [contain] [hamilton] [bermuda] [base] [ship] [concern] [said] [tuesdai] [would] [sell] [1.1] [billion] [asset] [us] [some] [proce] [bui] [about] [50] [it] [common] [share] [70] [apiec] 
+3_KStem            ==> [sea] [container] [a] [hamilton] [bermuda] [base] [shipping] [concern] [said] [tuesday] [that] [it] [would] [sell] [billion] [of] [asset] [and] [use] [some] [of] [the] [proceeds] [to] [buy] [about] [of] [its] [common] [shares] [for] [apiece] 
+4_PorterStem       ==> [sea] [contain] [a] [hamilton] [bermuda] [base] [ship] [concern] [said] [tuesdai] [that] [it] [would] [sell] [billion] [of] [asset] [and] [us] [some] [of] [the] [proce] [to] [bui] [about] [of] [it] [common] [share] [for] [apiec] 
+
+0_Raw              ==> The move is designed to ward off a hostile takeover attempt by two European shipping concerns, Stena Holding AG and Tiphook PLC. 
+1_Corenlp          ==> [the] [move] [be] [design] [to] [ward] [off] [a] [hostile] [takeover] [attempt] [by] [two] [european] [shipping] [concern] [,] [Stena] [Holding] [AG] [and] [Tiphook] [PLC.] [.] 
+2_EnglishAnalyzer  ==> [move] [design] [ward] [off] [hostil] [takeov] [attempt] [two] [european] [ship] [concern] [stena] [hold] [ag] [tiphook] [plc] 
+3_KStem            ==> [the] [move] [is] [design] [to] [ward] [off] [a] [hostile] [takeover] [attempt] [by] [two] [europe] [shipping] [concern] [stena] [holding] [ag] [and] [tiphook] [plc] 
+4_PorterStem       ==> [the] [move] [is] [design] [to] [ward] [off] [a] [hostil] [takeov] [attempt] [by] [two] [european] [ship] [concern] [stena] [hold] [ag] [and] [tiphook] [plc] 
+
+0_Raw              ==> In May, the two companies, through their jointly owned holding company, Temple, offered $50 a share, or $777 million, for Sea Containers. 
+1_Corenlp          ==> [in] [May] [,] [the] [two] [company] [,] [through] [they] [jointly] [own] [hold] [company] [,] [Temple] [,] [offer] [$] [50] [a] [share] [,] [or] [$] [777] [million] [,] [for] [Sea] [Containers] [.] 
+2_EnglishAnalyzer  ==> [mai] [two] [compani] [through] [jointli] [own] [hold] [compani] [templ] [offer] [50] [share] [777] [million] [sea] [contain] 
+3_KStem            ==> [in] [may] [the] [two] [company] [through] [their] [joint] [own] [holding] [company] [temple] [offer] [a] [share] [or] [million] [for] [sea] [container] 
+4_PorterStem       ==> [in] [mai] [the] [two] [compani] [through] [their] [jointli] [own] [hold] [compani] [templ] [offer] [a] [share] [or] [million] [for] [sea] [contain] 
+
+0_Raw              ==> In August, Temple sweetened the offer to $63 a share, or $963 million.  
+1_Corenlp          ==> [in] [August] [,] [Temple] [sweeten] [the] [offer] [to] [$] [63] [a] [share] [,] [or] [$] [963] [million] [.] 
+2_EnglishAnalyzer  ==> [august] [templ] [sweeten] [offer] [63] [share] [963] [million] 
+3_KStem            ==> [in] [august] [temple] [sweeten] [the] [offer] [to] [a] [share] [or] [million] 
+4_PorterStem       ==> [in] [august] [templ] [sweeten] [the] [offer] [to] [a] [share] [or] [million] 
+
+0_Raw              ==> Yesterday, Sea Containers' chief executive officer, James Sherwood, said in an interview that, under the asset-sale plan, Sea Containers would end up with a cash surplus of approximately $620 million. 
+1_Corenlp          ==> [yesterday] [,] [Sea] [Containers] ['] [chief] [executive] [officer] [,] [James] [Sherwood] [,] [say] [in] [a] [interview] [that] [,] [under] [the] [asset-sale] [plan] [,] [Sea] [Containers] [would] [end] [up] [with] [a] [cash] [surplus] [of] [approximately] [$] [620] [million] [.] 
+2_EnglishAnalyzer  ==> [yesterdai] [sea] [contain] [chief] [execut] [offic] [jame] [sherwood] [said] [interview] [under] [asset] [sale] [plan] [sea] [contain] [would] [end] [up] [cash] [surplu] [approxim] [620] [million] 
+3_KStem            ==> [yesterday] [sea] [container] [chief] [executive] [officer] [james] [sherwood] [said] [in] [an] [interview] [that] [under] [the] [asset] [sale] [plan] [sea] [container] [would] [end] [up] [with] [a] [cash] [surplus] [of] [approximate] [million] 
+4_PorterStem       ==> [yesterdai] [sea] [contain] [chief] [execut] [offic] [jame] [sherwood] [said] [in] [an] [interview] [that] [under] [the] [asset] [sale] [plan] [sea] [contain] [would] [end] [up] [with] [a] [cash] [surplu] [of] [approxim] [million] 
+
+0_Raw              ==> About $490 million of that would be allocated to the buy-back, leaving about $130 million, he said.  
+1_Corenlp          ==> [about] [$] [490] [million] [of] [that] [would] [be] [allocate] [to] [the] [buy-back] [,] [leave] [about] [$] [130] [million] [,] [he] [say] [.] 
+2_EnglishAnalyzer  ==> [about] [490] [million] [would] [alloc] [bui] [back] [leav] [about] [130] [million] [he] [said] 
+3_KStem            ==> [about] [million] [of] [that] [would] [be] [allocate] [to] [the] [buy] [back] [leave] [about] [million] [he] [said] 
+4_PorterStem       ==> [about] [million] [of] [that] [would] [be] [alloc] [to] [the] [bui] [back] [leav] [about] [million] [he] [said] 
+
+0_Raw              ==> That $130 million, Mr. Sherwood said, "gives us some flexibility in case Temple raises its bid. 
+1_Corenlp          ==> [that] [$] [130] [million] [,] [Mr.] [Sherwood] [say] [,] [``] [give] [we] [some] [flexibility] [in] [case] [Temple] [raise] [its] [bid] [.] 
+2_EnglishAnalyzer  ==> [130] [million] [mr] [sherwood] [said] [give] [us] [some] [flexibl] [case] [templ] [rais] [it] [bid] 
+3_KStem            ==> [that] [million] [mr] [sherwood] [said] [give] [us] [some] [flexible] [in] [case] [temple] [raise] [its] [bid] 
+4_PorterStem       ==> [that] [million] [mr] [sherwood] [said] [give] [us] [some] [flexibl] [in] [case] [templ] [rais] [it] [bid] 
+
+0_Raw              ==> We are able to increase our price above the $70 level if necessary." He declined to say, however, how much Sea Containers might raise its price.  
+1_Corenlp          ==> [we] [be] [able] [to] [increase] [we] [price] [above] [the] [$] [70] [level] [if] [necessary] [.] [''] [he] [decline] [to] [say] [,] [however] [,] [how] [much] [Sea] [Containers] [might] [raise] [its] [price] [.] 
+2_EnglishAnalyzer  ==> [we] [abl] [increas] [our] [price] [abov] [70] [level] [necessari] [he] [declin] [sai] [howev] [how] [much] [sea] [contain] [might] [rais] [it] [price] 
+3_KStem            ==> [we] [are] [able] [to] [increase] [our] [price] [above] [the] [level] [if] [necessary] [he] [decline] [to] [say] [however] [how] [much] [sea] [container] [might] [raise] [its] [price] 
+4_PorterStem       ==> [we] [ar] [abl] [to] [increas] [our] [price] [abov] [the] [level] [if] [necessari] [he] [declin] [to] [sai] [howev] [how] [much] [sea] [contain] [might] [rais] [it] [price] 
+
+0_Raw              ==> Mr. Sherwood speculated that the leeway that Sea Containers has means that Temple would have to "substantially increase their bid if they're going to top us."  
+1_Corenlp          ==> [Mr.] [Sherwood] [speculate] [that] [the] [leeway] [that] [Sea] [Containers] [have] [mean] [that] [Temple] [would] [have] [to] [``] [substantially] [increase] [they] [bid] [if] [they] [be] [go] [to] [top] [we] [.] [''] 
+2_EnglishAnalyzer  ==> [mr] [sherwood] [specul] [leewai] [sea] [contain] [ha] [mean] [templ] [would] [have] [substanti] [increas] [bid] [they'r] [go] [top] [us] 
+3_KStem            ==> [mr] [sherwood] [speculate] [that] [the] [leeway] [that] [sea] [container] [has] [means] [that] [temple] [would] [have] [to] [substantially] [increase] [their] [bid] [if] [they] [re] [go] [to] [top] [us] 
+4_PorterStem       ==> [mr] [sherwood] [specul] [that] [the] [leewai] [that] [sea] [contain] [ha] [mean] [that] [templ] [would] [have] [to] [substanti] [increas] [their] [bid] [if] [thei] [re] [go] [to] [top] [us] 
+
+0_Raw              ==> Temple, however, harshly criticized Sea Containers' plan yesterday, characterizing it as a "highly conditional device designed to entrench management, confuse shareholders and prevent them from accepting our superior cash offer."  
+1_Corenlp          ==> [Temple] [,] [however] [,] [harshly] [criticize] [Sea] [Containers] ['] [plan] [yesterday] [,] [characterize] [it] [as] [a] [``] [highly] [conditional] [device] [design] [to] [entrench] [management] [,] [confuse] [shareholder] [and] [prevent] [they] [from] [accept] [we] [superior] [cash] [offer] [.] [''] 
+2_EnglishAnalyzer  ==> [templ] [howev] [harshli] [critic] [sea] [contain] [plan] [yesterdai] [character] [highli] [condit] [devic] [design] [entrench] [manag] [confus] [sharehold] [prevent] [them] [from] [accept] [our] [superior] [cash] [offer] 
+3_KStem            ==> [temple] [however] [harsh] [criticize] [sea] [container] [plan] [yesterday] [characterize] [it] [as] [a] [highly] [conditional] [device] [design] [to] [entrench] [management] [confuse] [shareholder] [and] [prevent] [them] [from] [accept] [our] [superior] [cash] [offer] 
+4_PorterStem       ==> [templ] [howev] [harshli] [critic] [sea] [contain] [plan] [yesterdai] [character] [it] [as] [a] [highli] [condit] [devic] [design] [to] [entrench] [manag] [confus] [sharehold] [and] [prevent] [them] [from] [accept] [our] [superior] [cash] [offer] 
+
+0_Raw              ==> A spokesman for Temple estimated that Sea Containers' plan -- if all the asset sales materialize -- would result in shareholders receiving only $36 to $45 a share in cash. 
+1_Corenlp          ==> [a] [spokesman] [for] [Temple] [estimate] [that] [Sea] [Containers] ['] [plan] [--] [if] [all] [the] [asset] [sale] [materialize] [--] [would] [result] [in] [shareholder] [receive] [only] [$] [36] [to] [$] [45] [a] [share] [in] [cash] [.] 
+2_EnglishAnalyzer  ==> [spokesman] [templ] [estim] [sea] [contain] [plan] [all] [asset] [sale] [materi] [would] [result] [sharehold] [receiv] [onli] [36] [45] [share] [cash] 
+3_KStem            ==> [a] [spokesman] [for] [temple] [estimate] [that] [sea] [container] [plan] [if] [all] [the] [asset] [sales] [materialize] [would] [result] [in] [shareholder] [receiving] [only] [to] [a] [share] [in] [cash] 
+4_PorterStem       ==> [a] [spokesman] [for] [templ] [estim] [that] [sea] [contain] [plan] [if] [all] [the] [asset] [sale] [materi] [would] [result] [in] [sharehold] [receiv] [onli] [to] [a] [share] [in] [cash] 
+
+0_Raw              ==> The lower figures, the spokesman said, would stem from preferred shares being converted to common stock and the possibility that Sea Containers' subsidiaries might be required to place their shares in the open market.  
+1_Corenlp          ==> [the] [lower] [figure] [,] [the] [spokesman] [say] [,] [would] [stem] [from] [preferred] [share] [be] [convert] [to] [common] [stock] [and] [the] [possibility] [that] [Sea] [Containers] ['] [subsidiary] [might] [be] [require] [to] [place] [they] [share] [in] [the] [open] [market] [.] 
+2_EnglishAnalyzer  ==> [lower] [figur] [spokesman] [said] [would] [stem] [from] [prefer] [share] [be] [convert] [common] [stock] [possibl] [sea] [contain] [subsidiari] [might] [requir] [place] [share] [open] [market] 
+3_KStem            ==> [the] [lower] [figures] [the] [spokesman] [said] [would] [stem] [from] [prefer] [shares] [being] [convert] [to] [common] [stock] [and] [the] [possibility] [that] [sea] [container] [subsidiary] [might] [be] [require] [to] [place] [their] [shares] [in] [the] [open] [market] 
+4_PorterStem       ==> [the] [lower] [figur] [the] [spokesman] [said] [would] [stem] [from] [prefer] [share] [be] [convert] [to] [common] [stock] [and] [the] [possibl] [that] [sea] [contain] [subsidiari] [might] [be] [requir] [to] [place] [their] [share] [in] [the] [open] [market] 
+
+0_Raw              ==> Temple added that Sea Containers is still mired in legal problems in Bermuda, where the Supreme Court has temporarily barred Sea Containers from buying back its own stock in a case brought by Stena and Tiphook. {The court has indicated it will rule on the case by the end of the month.}  
+1_Corenlp          ==> [Temple] [add] [that] [Sea] [Containers] [be] [still] [mire] [in] [legal] [problem] [in] [Bermuda] [,] [where] [the] [Supreme] [Court] [have] [temporarily] [bar] [Sea] [Containers] [from] [buy] [back] [its] [own] [stock] [in] [a] [case] [bring] [by] [Stena] [and] [Tiphook] [.] [-lcb-] [the] [court] [have] [indicate] [it] [will] [rule] [on] [the] [case] [by] [the] [end] [of] [the] [month] [.] [-rcb-] 
+2_EnglishAnalyzer  ==> [templ] [ad] [sea] [contain] [still] [mire] [legal] [problem] [bermuda] [where] [suprem] [court] [ha] [temporarili] [bar] [sea] [contain] [from] [bui] [back] [it] [own] [stock] [case] [brought] [stena] [tiphook] [court] [ha] [indic] [rule] [case] [end] [month] 
+3_KStem            ==> [temple] [add] [that] [sea] [container] [is] [still] [mire] [in] [legal] [problem] [in] [bermuda] [where] [the] [supreme] [court] [has] [temporary] [barred] [sea] [container] [from] [buy] [back] [its] [own] [stock] [in] [a] [case] [brought] [by] [stena] [and] [tiphook] [the] [court] [has] [indicate] [it] [will] [rule] [on] [the] [case] [by] [the] [end] [of] [the] [month] 
+4_PorterStem       ==> [templ] [ad] [that] [sea] [contain] [is] [still] [mire] [in] [legal] [problem] [in] [bermuda] [where] [the] [suprem] [court] [ha] [temporarili] [bar] [sea] [contain] [from] [bui] [back] [it] [own] [stock] [in] [a] [case] [brought] [by] [stena] [and] [tiphook] [the] [court] [ha] [indic] [it] [will] [rule] [on] [the] [case] [by] [the] [end] [of] [the] [month] 
+
+0_Raw              ==> Temple also said Sea Containers' plan raises "numerous legal, regulatory, financial and fairness issues," but didn't elaborate.  
+1_Corenlp          ==> [Temple] [also] [say] [Sea] [Containers] ['] [plan] [raise] [``] [numerous] [legal] [,] [regulatory] [,] [financial] [and] [fairness] [issue] [,] [''] [but] [do] [not] [elaborate] [.] 
+2_EnglishAnalyzer  ==> [templ] [also] [said] [sea] [contain] [plan] [rais] [numer] [legal] [regulatori] [financi] [fair] [issu] [didn't] [elabor] 
+3_KStem            ==> [temple] [also] [said] [sea] [container] [plan] [raise] [numerous] [legal] [regulatory] [financial] [and] [fair] [issue] [but] [didn] [t] [elaborate] 
+4_PorterStem       ==> [templ] [also] [said] [sea] [contain] [plan] [rais] [numer] [legal] [regulatori] [financi] [and] [fair] [issu] [but] [didn] [t] [elabor] 
+
+0_Raw              ==> Mr. Sherwood said reaction to Sea Containers' proposal has been "very positive." In New York Stock Exchange composite trading yesterday, Sea Containers closed at $62.625, up 62.5 cents.  
+1_Corenlp          ==> [Mr.] [Sherwood] [say] [reaction] [to] [Sea] [Containers] ['] [proposal] [have] [be] [``] [very] [positive] [.] [''] [in] [New] [York] [Stock] [Exchange] [composite] [trading] [yesterday] [,] [Sea] [Containers] [close] [at] [$] [62.625] [,] [up] [62.5] [cent] [.] 
+2_EnglishAnalyzer  ==> [mr] [sherwood] [said] [reaction] [sea] [contain] [propos] [ha] [been] [veri] [posit] [new] [york] [stock] [exchang] [composit] [trade] [yesterdai] [sea] [contain] [close] [62.625] [up] [62.5] [cent] 
+3_KStem            ==> [mr] [sherwood] [said] [reaction] [to] [sea] [container] [proposal] [has] [been] [very] [positive] [in] [new] [york] [stock] [exchange] [composite] [trade] [yesterday] [sea] [container] [closed] [at] [up] [cent] 
+4_PorterStem       ==> [mr] [sherwood] [said] [reaction] [to] [sea] [contain] [propos] [ha] [been] [veri] [posit] [in] [new] [york] [stock] [exchang] [composit] [trade] [yesterdai] [sea] [contain] [close] [at] [up] [cent] 
+

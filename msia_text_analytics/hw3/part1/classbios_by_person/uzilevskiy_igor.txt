@@ -1,0 +1,43 @@
+
+My name is Igor. I moved to the Chicago area from Russia when I was four, and have lived here since. I knew that I was interested in 
+analytics coming out of my undergraduate program in Economics at Northwestern, and I felt that the MSiA program would help me find a job
+as a data scientist. Before the program I worked in consulting for two years. I became interseted in text analytics through the short introductions
+to it we have had in other MSiA courses. In the future I plan to build some predictive models. 
+
+Here is my resume:
+Education
+Master of Science in Analytics 	Expected December 2015	
+	Northwestern University, McCormick School of Engineering, Evanston IL  
+	GPA: 3.95/4.00
+	Completed coursework includes: Statistical Methods, Data Mining, Predictive Analytics, Optimization & Heuristics, Java, Python, Hadoop
+	Course Projects:
+	Investigated the factors determining sales outcomes for a software product for GE Healthcare using logistic regression and other predictive modeling techniques
+	Completed an 8-month industry practicum project investigating the factors determining paper vs. paperless billing uptake for We Energies
+Bachelor of Arts in Economics	June 2012	
+	Northwestern University, Weinberg College of Arts and Sciences, Evanston IL  
+	Majors:  Economics and International Studies, Minor: Statistics
+	Cumulative GPA: 3.45/4.00 
+	Extra-Curricular: Treasurer at Lambda Chi Alpha Fraternity  (March 2011  March 2012 )	
+ 
+
+Professional Experience	
+Nielsen  Data Science Intern 	June 2015  Present	
+	Investigated Principal Component Analysis methodology used for Fusion of large datasets 
+Beghou Consulting - Senior Analyst 	July 2013  August 2014
+	Lead development of SAS and VBA code for an existing sales report in Excel delivered to over 1,500 users and communicated with the client to respond to their needs as necessary
+	Assisted in a customer targeting project by maintaining and developing reports, processing data collected from a web based tool, and contributing to updates for the targeting model and to ad-hoc analysis. Investigated the effect of changing parameters on the model output.
+Beghou Consulting - Analyst	July 2012  July 2013
+	Maintained and developed VBA code for a sales report in Excel 
+	Developed a Unix shell script for running SAS code on a client machine
+Obama for America - Analytics Intern	January 2012  June 2012
+	Assisted full time staff on the Statistical Modeling Team with constructing logistic regression models of voter turnout and support
+	Collected government survey data and helped to build and validate statistical models
+Northwestern University, School of Education and Social Policy - Research Assistant 	July 2010  October 2011
+	Assisted with STATA programming to acquire and prepare data for projects investigating the effects of educational tracking on student outcomes and math instruction in elementary schools. 
+ 
+Language
+ Russian (Spoken: Fluent, Written/Read: Intermediate)	 Spanish (Spoken/Written/Read: Basic)      
+Programming Skills
+ VBA	 SAS        	Python	R	Hadoop
+Unix/Shell	 STATA	 SQL    	 Java    	Spark
+
