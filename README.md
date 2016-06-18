@@ -18,7 +18,6 @@
 * [edx - MIT: Analytics Edge](edx_analytics_edge)
 * [edx - Microsoft: Intro HTML, CSS and JavaScript](edx_intro_HTML_CSS_JavaScript)
 * [edx - MIT: Intro to Computer Science and Programming](edx_mit_intro_computer_science_and_programming)
-
 * [udacity - Technical Interview](udacity_technical_interview)
 
 
