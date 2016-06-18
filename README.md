@@ -2,7 +2,7 @@
 
 ## Northwestern University
 * [MSIA - Big Data](msia_big_data)
-* [MSIA - Deep Larning](msia_deep_learning)
+* [MSIA - Deep Learning](msia_deep_learning)
 * [MSIA - Text Analytics](msia_text_analytics)
 * [MSIA - Data Mining](/msia_data_mining)
 * [MSIA - Predictive Analytics](msia_predictive_analytics)
