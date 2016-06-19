@@ -14,12 +14,12 @@
 
 # Exercises
 
-- **[Goolge](/google)**
+- **[Goolge](google/)**
 
-- **[IBM](/ibm)**
+- **[IBM](ibm/)**
 
-- **[Medicare](/medicare)**
+- **[Medicare](medicare/)**
 
-- **[Music](/music)**
+- **[Music](music/)**
 
-- **[Temperature](/temperature)**
+- **[Temperature](temperature/)**
